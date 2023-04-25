@@ -36,7 +36,7 @@ function addTask(event) {
 
 	renderTask(newTask);
 
-	taskInput.value = "165";
+	taskInput.value = "";
 	taskInput.focus();
 
 	checkEmptyList();
