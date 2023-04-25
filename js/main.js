@@ -3,7 +3,6 @@ const form = document.querySelector('#form');
 const taskInput = document.querySelector('#taskInput');
 const tasksList = document.querySelector('#tasksList');
 const emptyList = document.querySelector('#emptyList');
-const button = document.querySelector('button');
 
 let tasks = [];
 
@@ -18,7 +17,6 @@ checkEmptyList();
 form.addEventListener('submit', addTask);
 tasksList.addEventListener('click', deleteTask);
 tasksList.addEventListener('click', doneTask);
-button.addEventListener('click', showMessage);
 
 // Функции
 function addTask(event) {
@@ -38,7 +36,7 @@ function addTask(event) {
 
 	renderTask(newTask);
 
-	taskInput.value = "";
+	taskInput.value = "165";
 	taskInput.focus();
 
 	checkEmptyList();
@@ -112,8 +110,4 @@ function renderTask(task) {
 				</li>`;
 
 	tasksList.insertAdjacentHTML('beforeend', taskHTML);
-}
-
-function showMessage() {
-	taskInput.value = "1222222";
 }
