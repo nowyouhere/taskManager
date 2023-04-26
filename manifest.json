@@ -1,0 +1,21 @@
+{
+  "background_color": "#ffffff",
+  "description": "description",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "TaskManager",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "ToDoApp",
+  "start_url": "https://nowyouhere.github.io/taskManager/",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [{
+    "src": "icons/icon.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }],
+  "shortcuts": [],
+  "lang": "ru"
+}
